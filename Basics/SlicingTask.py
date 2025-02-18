@@ -21,7 +21,9 @@ a = "Indian cuisine offers a rich and diverse array of vegetarian dishes, reflec
 # print(a[405:516])
 # print(a.find("idli"))
 # Extract the name of three North Indian dishes.
+# print(a[492:a.find(".")])
 # Extract the names of all South Indian dishes mentioned.
+
 # Extract the name of the first street food mentioned.
 # Extract the phrase "unique flavors" from the paragraph.
 # Extract the names of all spices mentioned in the paragraph.

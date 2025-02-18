@@ -17,13 +17,13 @@
 # Output:--
 # Enter the no:5
 # The factorial is 120
-fact = int(input("enter the no : "))
-ans = 1
-for i in range(fact,1):
-    fact = fact * i
-    
-print(ans)
+# num = int(input("Enter the number :"))
+# fact = 1
+# for i in range(1, num + 1):
+#     fact *= i
+# print(f"Factorial of {num}:", fact)
 
+#----------------------------------------------
 # > WAP check the no. Armstrong or not
 # Output:--
 # Enter one no.: 153
@@ -33,6 +33,11 @@ print(ans)
 # Output :--
 # Enter a no.: 1221
 # palindrome no
+num = int(input("Enter the number :"))
+if(str(num) == str(num)[::-1]):
+    print("The number is palindrome !")
+else:
+    print("The number is not palindrome")
 
 # > WAP to print Fibonacci Series
 # Output:--
