@@ -33,11 +33,11 @@
 # Output :--
 # Enter a no.: 1221
 # palindrome no
-num = int(input("Enter the number :"))
-if(str(num) == str(num)[::-1]):
-    print("The number is palindrome !")
-else:
-    print("The number is not palindrome")
+# num = int(input("Enter the number :"))
+# if(str(num) == str(num)[::-1]):
+#     print("The number is palindrome !")
+# else:
+#     print("The number is not palindrome")
 
 # > WAP to print Fibonacci Series
 # Output:--
@@ -47,8 +47,19 @@ else:
 # Output:-
 # Enter a Number:15
 # Sum of digits of a number:6
+# num = input("Enter the number : ")
+# sum = 0
+# for i in range(0,len(num)):
+#     sum = int(sum) + int(num[i])
+# print(sum) 
 
 # > WAP to find sum of odd digit of entered digit.
 # Output:-
 # Enter a Number:1567
 # Sum of Odd digits of a number:8 ###
+num = int(input("Enter the number : "))
+sum = 0
+for i in range(0,3):
+    if i % 2 != 0:
+        sum = sum + i 
+print(sum)
