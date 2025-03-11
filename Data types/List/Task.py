@@ -55,18 +55,41 @@ veggies = [
 
 # 3. Extract Only English Names
 #  Create a new list that contains only the English names of the vegetables.
-eng_word = []
-for i in veggies:
-    word = i[0:i.find(" (")]
-    eng_word.append(word)
-print(eng_word)
+# eng_word = []
+# for i in veggies:
+#     word = i[0:i.find(" (")]
+#     eng_word.append(word)
+# print(eng_word)
 
 # 4. Find the Longest and Shortest Vegetable Names
 #  Identify and print the longest and shortest vegetable names (English and Hindi separately).
 # English :
-max = 0
-for i in eng_word:
-    if len(i) > max:
-        max = len(i)
-        print(i)
-print(max)
+# max = 0
+# name = ""
+# for i in eng_word:
+#     if len(i) > max:
+#         max = len(i)
+#         name = i
+# print(name)
+
+# min = 100
+# name = ""
+# for i in eng_word:
+#     if len(i) < min:
+#         min = len(i)
+#         name = i
+# print(name)
+
+#  5. Reverse Each Vegetable Name
+#  Print a new list where each vegetable name (both English and Hindi) is reversed
+# lst = []
+# for i in veggies:
+#     word = i[::-1]
+#     lst.append(word)
+# print(lst)
+
+# 6. Find Vegetables Containing a Given Letter
+#  Write a function that takes a letter as input and returns all vegetable names (English and Hindi) containing
+#  that letter
+
+

@@ -35,10 +35,11 @@
 # word = [len(j) for i in words_list for j in i if len(j) > 3]
 # print(word)
 
-#9)Create a list of coordinate pairs from a 3x3 grid representation.
-# grid = [[(x, y) for y in range(3)] for x in range(3)]
+# 9)Create a list of coordinate pairs from a 3x3 grid representation.
+grid = [[(x, y) for y in range(3)] for x in range(3)]
+print(grid)
 
 #10 Reverse each word in a nested list, but only if it starts with a vowel.
-sentence_list = [["Python", "is", "fun"], ["AI", "rocks", "comprehension"]]
-rev = [j for i in sentence_list for j in i if j[0] in ['a','i','e','o','u','A','I','O','U','E']]
-print(rev)
+# sentence_list = [["Python", "is", "fun"], ["AI", "rocks", "comprehension"]]
+# rev = [j for i in sentence_list for j in i if j[0] in ['a','i','e','o','u','A','I','O','U','E']]
+# print(rev)
