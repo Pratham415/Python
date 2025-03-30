@@ -46,3 +46,24 @@
 #  Output: 
 # True
 
+# 7. Find all pairs in a list whose sum is equal to a given number:
+#  Input: 
+lst = [1, 2, 3, 4, 3, 6] , sum = 6 
+# sum = 6
+
+#  Output: 
+# [(2, 4), (3, 3)]
+
+
+#  8. Flatten a nested list:
+#  Input: 
+# lst = [[1, 2, 3], [4, 5], [6, [7, 8]]]
+#  Output: 
+# [1, 2, 3, 4, 5, 6, 7, 8]
+
+
+#  9. Find the maximum product of two integers in a list:
+#  Input: 
+# lst = [1, 20, 30, 4, 5]
+#  Output: 
+# 600 (Product of 20 and 30
